@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #koby_video{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .home{
+            position: relative;
+        }
+        .video_con{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+    <script></script>
+</head>
+<body>
+    <div class="box">
+        <div class="home">
+            <video width="672" height="378" src="_video/koby.mp4" id="koby_video" controls poster="_video/ke.png"></video>
+            <div class="video_con">1111</div>
+        </div>
+    </div>
+
+</body>
+<script>
+    let oV=document.querySelector('#koby_video');
+    let star=true;
+    oV.onclick=function () {
+        if(true){
+            oV.play();
+        }
+
+    }
+</script>
+</html>
